@@ -1,6 +1,6 @@
 # Explicitly specify `focal` because `swift:latest` does not use `ubuntu:latest`.
 ARG BUILDER_IMAGE=swift:focal
-ARG RUNTIME_IMAGE=ubuntu:focal
+ARG RUNTIME_IMAGE=ubuntu:20.04
 ARG SWIFTLINT_REVISION=0.47.1
 ARG SWIFT_FORMAT_REVISION=0.49.7
 
